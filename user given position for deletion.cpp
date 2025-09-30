@@ -21,7 +21,7 @@ int main()
         cin>>pos;
 
     }
-    for(i=pos-1;i<n;i++)
+    for(i=pos-1;i<n-1;i++)
     {
         a[i]=a[i+1];
     }
@@ -31,4 +31,5 @@ int main()
         cout<<a[i]<<" ";
     }
 }
+
 
