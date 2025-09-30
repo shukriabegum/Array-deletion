@@ -12,7 +12,7 @@ int main()
         cin>>a[i];
     }
     
-    for(i=0;i<n;i++)
+    for(i=0;i<n-1;i++)
     {
         a[i]=a[i+1];
     }
@@ -22,4 +22,5 @@ int main()
         cout<<a[i]<<" ";
     }
 }
+
 
